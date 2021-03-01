@@ -8,8 +8,7 @@ import About from "../../pages/about";
 function Navbar() {
 
 	const [value, setValue] = useState("");
-	const onChange = 0;
-
+	// const onChange = 0;
 
 	const handleChange = (event, newValue) => {
 		setValue(newValue);

@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "Clicky X-Men",
 		"description": "Try to click on all the images once and only once. Utilizes React JS",
-		"image": "https://i.redd.it/fbvb5zhlv8k61.png",
+		"image": "./images/xmen.png",
 		"deploy": "https://akhalid88.github.io/clicky-x-men/",
 		"github": "https://github.com/akhalid88/clicky-x-men"
 	},
@@ -19,7 +19,7 @@
 		"id": 3,
 		"name": "Circle Restaurant Menu Mgmt",
 		"description": "Web app designed for restaurant management. Write, save, view, and delete notes. Utilizes Javascript, NodeJS, ExpressJS, JSON, and Heroku",
-		"image": "",
+		"image": "./images/circle.png",
 		"deploy": "https://circle-restaurant-mgmt-01.herokuapp.com/admin",
 		"github": "https://github.com/akhalid88/circle_restaurant_mgmt"
 	},
@@ -27,7 +27,7 @@
 		"id": 4,
 		"name": "Read a Book",
 		"description": "Heroku hosted book tracking app. Add books to an unread/read list and change status of book. Utilizes Javascript, NodeJS, Express Handlebars, MVC Framework, and Heroku",
-		"image": "",
+		"image": "./images/readabook.png",
 		"deploy": "https://read-a-book-ya-nerd.herokuapp.com/",
 		"github": "https://github.com/akhalid88/read-a-book-ya-nerd"
 	},
@@ -35,7 +35,7 @@
 		"id": 5,
 		"name": "Duly Noted",
 		"description": "Heroku hosted web note taking app. Write, save, view, and delete notes. Utilizes Javascript, NodeJS, ExpressJS, JSON, and Heroku",
-		"image": "",
+		"image": "./images/dulynoted.png",
 		"deploy": "https://salty-bayou-60037.herokuapp.com/",
 		"github": "https://github.com/akhalid88/duly-noted"
 	},
@@ -43,7 +43,7 @@
 		"id": 6,
 		"name": "Employee Registry",
 		"description": "An employee directory using React. Filter employess by search and also sort by name or date of birth.",
-		"image": "",
+		"image": "./images/empregistry.png",
 		"deploy": "https://akhalid88.github.io/employee-registry/",
 		"github": "https://github.com/akhalid88/employee-registry"
 	}
