@@ -36,9 +36,8 @@ const useStyles = makeStyles({
 	}
 });
 
-function Project({ id, name, description, image, deploy, github }) {
+function Project({ name, description, image, deploy, github }) {
 	const classes = useStyles();
-	// const bull = <span className={classes.bullet}>•</span>;
 
 	return (
 		<Grid item component={Card} className={classes.grid}>
@@ -46,9 +45,8 @@ function Project({ id, name, description, image, deploy, github }) {
 				<CardMedia
 					className={classes.media}
 					image={image}
-					title="COVID 19 Tracker"
+					title={name}
 				/>
-				{/* <img src={image} alt={name} /> */}
 				<CardContent>
 					<Typography className={classes.title} color="textSecondary" gutterBottom>
 						{name}
