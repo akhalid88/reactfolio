@@ -1,8 +1,14 @@
 import React from 'react';
+import Project from "../components/project/project"
+import projects from "../projects.json" 
 
 function Portfolio() {
 	return (
-		<div>Portfolio</div>
+		<div>
+			{projects.map(proj => (
+				<Project />
+			))}
+		</div>
 	);
 }
 

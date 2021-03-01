@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { AppBar, Button, Menu, Tabs, Tab, TabPanel } from '@material-ui/core';
@@ -15,9 +14,6 @@ function App() {
 
   return (
     <Router>
-      {/* <div className="App"> */}
-      {/* <header className="App-header"> */}
-      {/* <Menu ></Menu> */}
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -26,12 +22,10 @@ function App() {
         <Route exact path="/about" component={About} />
         {/* <Route component={NoMatch} /> */}
       </Switch>
-      {/* </Navbar> */}
 
-      <Jumbotron>
+      {/* <Jumbotron>
 
-      </Jumbotron>
-      {/* </div> */}
+      </Jumbotron> */}
     </Router>
   );
 }

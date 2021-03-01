@@ -17,9 +17,9 @@ function Navbar() {
 	return (
 		<AppBar position="static">
 			<Tabs value={value} onChange={handleChange} aria-label="simple tabs example" centered>
-				<Tab label="Home" value={Home} />
-				<Tab label="Portfolio" value={Portfolio} />
-				<Tab label="About" value={About} />
+				<Tab label="Home" value={Home} href="/" />
+				<Tab label="Portfolio" value={Portfolio} href="/portfolio" />
+				<Tab label="About" value={About} href="about" />
 			</Tabs>
 		</AppBar>
 	)
