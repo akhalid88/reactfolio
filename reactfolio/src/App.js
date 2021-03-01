@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename="/">
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

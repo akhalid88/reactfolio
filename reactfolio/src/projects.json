@@ -1,9 +1,9 @@
 [
 	{
 		"id": 1,
-		"name": "Click X-Men",
+		"name": "Clicky X-Men",
 		"description": "Try to click on all the images once and only once. Utilizes React JS",
-		"image": "",
+		"image": "https://i.redd.it/fbvb5zhlv8k61.png",
 		"deploy": "https://akhalid88.github.io/clicky-x-men/",
 		"github": "https://github.com/akhalid88/clicky-x-men"
 	},
@@ -11,7 +11,7 @@
 		"id": 2,
 		"name": "COVID-19 Tracker",
 		"description": "Get data on COVID-19 for given state and nearby testing locations. Utilizes Web APIs, ChartJS, and Bulma CSS",
-		"image": "",
+		"image": "./images/c19tracker.png",
 		"deploy": "https://austinwoo123.github.io/COVID-19-Tracker/",
 		"github": "https://github.com/akhalid88/COVID-19-Tracker"
 	},
