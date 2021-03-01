@@ -1,38 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+// import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { AppBar, Button, Menu, Tabs, Tab, TabPanel } from '@material-ui/core';
+import Jumbotron from "./components/jumbotron/jumbotron";
+import Navbar from "./components/navbar/navbar";
+import Home from "./pages/home";
+import Portfolio from "./pages/portfolio";
+import About from "./pages/about";
+// import NoMatch from "./pages/nomatch";
 
 function App() {
-  const value = 0;
-  const onChange = 0;
-  function handleChange() {
-    onChange = 1;
-  };
+
+
   return (
-    <div className="App">
+    <Router>
+      {/* <div className="App"> */}
       {/* <header className="App-header"> */}
       {/* <Menu ></Menu> */}
-      <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" centered>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
-        </Tabs>
-      </AppBar>
-      {/* <TabPanel value={value} index={0}>
-        Item One
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel> */}
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/about" component={About} />
+        {/* <Route component={NoMatch} /> */}
+      </Switch>
+      {/* </Navbar> */}
 
-      <Button color="primary">Hello World</Button>
-      {/* </header> */}
-    </div>
+      <Jumbotron>
+
+      </Jumbotron>
+      {/* </div> */}
+    </Router>
   );
 }
 
