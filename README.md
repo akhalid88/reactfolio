@@ -40,7 +40,8 @@ import {
 	Typography
 } from '@material-ui/core';
 ```
-In my portfolio Componenet, I created a projectState that loads the details of my project.json file so I can make changes to my projects.json file and then React will take care of the rest. 
+
+In my portfolio Component, I created a projectState that loads the details of my project.json file so I can make changes to my projects.json file and then React will take care of the rest. 
 
 ```javascript
 const [projectState, setProjectState] = useState([]);
