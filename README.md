@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Clicky X-Men  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+###### This readme has been procedurally generated 
+![Main](readme/home.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-----------------------
+## Table of Contents
+1. [Description](#description)
+2. [Deployed link](#deployed-link)
+3. [Code snippets](#code-snippets)
+4. [Built with](#built-with)
+5. [Questions](#questions)
 
-## Available Scripts
+-----------------------
+## Description
+For this portfolio I really wanted to utilize a new framework and after much deliberation I decided on Material-UI react component. I really like the look of Google's Material Design and though it would look good on my portfolio,
 
-In the project directory, you can run:
+![Portfolio](readme/about.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-----------------------
+## Deployed link
+https://react-folio-03.herokuapp.com/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-----------------------
+## Code snippets
 
-### `npm test`
+![Folio](readme/portfolio.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To build the project cards displayed on my portfolio page, I used the following material-ui core components
 
-### `npm run build`
+```javascript
+import { makeStyles } from '@material-ui/core/styles';
+import {
+	Button,
+	Card,
+	CardActions,
+	CardContent,
+	CardMedia,
+	Grid,
+	Typography
+} from '@material-ui/core';
+```
+In my portfolio Componenet, I created a projectState that loads the details of my project.json file so I can make changes to my projects.json file and then React will take care of the rest. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```javascript
+const [projectState, setProjectState] = useState([]);
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+useEffect(() => {
+	setProjectState(projects);
+},[])
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-----------------------
+## Built With
 
-### `npm run eject`
+- React.JS
+- Material-UI
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-----------------------
+## Questions
+Created by Muhammad A Khalid
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have any questions you can reach me at the following email: [akhalid.code@gmail.com](mailto:akhalid.code@gmail.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Follow my other work at GitHub: https://github.com/akhalid88/

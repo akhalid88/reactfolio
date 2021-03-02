@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "Clicky X-Men",
 		"description": "Try to click on all the images once and only once. Utilizes React JS",
-		"image": "./images/xmen.png",
+		"image": "/images/xmen.png",
 		"deploy": "https://akhalid88.github.io/clicky-x-men/",
 		"github": "https://github.com/akhalid88/clicky-x-men"
 	},
@@ -11,7 +11,7 @@
 		"id": 2,
 		"name": "COVID-19 Tracker",
 		"description": "Get data on COVID-19 for given state and nearby testing locations. Utilizes Web APIs, ChartJS, and Bulma CSS",
-		"image": "./images/c19tracker.png",
+		"image": "/images/c19tracker.png",
 		"deploy": "https://austinwoo123.github.io/COVID-19-Tracker/",
 		"github": "https://github.com/akhalid88/COVID-19-Tracker"
 	},
@@ -35,7 +35,7 @@
 		"id": 5,
 		"name": "Duly Noted",
 		"description": "Heroku hosted web note taking app. Write, save, view, and delete notes. Utilizes Javascript, NodeJS, ExpressJS, JSON, and Heroku",
-		"image": "./images/dulynoted.png",
+		"image": "../images/dulynoted.png",
 		"deploy": "https://salty-bayou-60037.herokuapp.com/",
 		"github": "https://github.com/akhalid88/duly-noted"
 	},
@@ -43,7 +43,7 @@
 		"id": 6,
 		"name": "Employee Registry",
 		"description": "An employee directory using React. Filter employess by search and also sort by name or date of birth.",
-		"image": "./images/empregistry.png",
+		"image": "../images/empregistry.png",
 		"deploy": "https://akhalid88.github.io/employee-registry/",
 		"github": "https://github.com/akhalid88/employee-registry"
 	}
