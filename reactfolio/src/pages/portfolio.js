@@ -18,7 +18,7 @@ function Portfolio() {
 
 	useEffect(() => {
 		setProjectState(projects);
-	})
+	},[])
 
 	return (
 		<div className={classes.container}>

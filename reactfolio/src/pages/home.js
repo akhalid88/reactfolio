@@ -7,8 +7,6 @@ const useStyles = makeStyles({
 	main: {
 		marginTop: "10%",
 		maxWidth: "40%",
-		// alignItems: 'center',
-		// display: 'inline-block'
 	},
 	title: {
 		fontSize: 100,
@@ -17,7 +15,6 @@ const useStyles = makeStyles({
 	text: {
 		fontsize: 20,
 		textAlign: 'center'
-
 	}
 })
 
@@ -28,7 +25,7 @@ function Home() {
 			<div className={classes.text}>
 				<h1 className={classes.title}>MUHAMMAD A KHALID</h1>
 				<h5 className={classes.text}>Full Stack Web Developer</h5>
-				<h5 className={classes.text}>Archer | Coder | Gamer</h5>
+				<h5 className={classes.text}>archer | coder | gamer</h5>
 			</div>
 		</Container>
 	);
