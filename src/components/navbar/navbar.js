@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { AppBar, Tabs, Tab, Button } from '@material-ui/core';
+import React from 'react';
+import { AppBar, Tabs, Tab} from '@material-ui/core';
 
 import Home from "../../pages/home";
 import Portfolio from "../../pages/portfolio";

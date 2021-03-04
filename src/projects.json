@@ -11,7 +11,7 @@
 		"id": 2,
 		"name": "COVID-19 Tracker",
 		"description": "Get data on COVID-19 for given state and nearby testing locations. Utilizes Web APIs, ChartJS, and Bulma CSS",
-		"image": "./images/c19tracker.png",
+		"image": "../../images/c19tracker.png",
 		"deploy": "https://austinwoo123.github.io/COVID-19-Tracker/",
 		"github": "https://github.com/akhalid88/COVID-19-Tracker"
 	},
@@ -46,6 +46,14 @@
 		"image": "./images/empregistry.png",
 		"deploy": "https://akhalid88.github.io/employee-registry/",
 		"github": "https://github.com/akhalid88/employee-registry"
+	},
+	{
+		"id": 7,
+		"name": "React Books",
+		"description": "Full stack React based application that allows users to search for Google Books, add them to their Saved page, and delete them from there page as well",
+		"image": "./images/reactbooks.png",
+		"deploy": "https://books-reactor-01.herokuapp.com/",
+		"github": "https://github.com/akhalid88/react-books"
 	}
 
 ]
