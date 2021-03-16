@@ -12,7 +12,7 @@ function Navbar() {
 			<Tabs aria-label="simple tabs example" centered>
 				<Tab label="Home" value={Home} href="/" />
 				<Tab label="Portfolio" value={Portfolio} href="/portfolio" />
-				<Tab label="About" value={About} href="about" />
+				<Tab label="About" value={About} href="/about" />
 			</Tabs>
 		</AppBar>
 	)
