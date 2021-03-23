@@ -1,6 +1,14 @@
 [
 	{
-		"id": 1,
+		"id": 8,
+		"name": "Media Plug",
+		"description": "Try to click on all the images once and only once. Utilizes React JS",
+		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/public/images/mediaplug.png",
+		"deploy": "https://media-plug.herokuapp.com/",
+		"github": "https://github.com/coleman-buffa/media-plug"
+	},
+	{
+		"id": 7,
 		"name": "Clicky X-Men",
 		"description": "Try to click on all the images once and only once. Utilizes React JS",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/xmen.png",
@@ -8,7 +16,7 @@
 		"github": "https://github.com/akhalid88/clicky-x-men"
 	},
 	{
-		"id": 2,
+		"id": 6,
 		"name": "COVID-19 Tracker",
 		"description": "Get data on COVID-19 for given state and nearby testing locations. Utilizes Web APIs, ChartJS, and Bulma CSS",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/c19tracker.png",
@@ -16,7 +24,7 @@
 		"github": "https://github.com/akhalid88/COVID-19-Tracker"
 	},
 	{
-		"id": 3,
+		"id": 5,
 		"name": "Circle Restaurant Menu Mgmt",
 		"description": "Web app designed for restaurant management. Write, save, view, and delete notes. Utilizes Javascript, NodeJS, ExpressJS, JSON, and Heroku",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/circle.png",
@@ -32,7 +40,7 @@
 		"github": "https://github.com/akhalid88/read-a-book-ya-nerd"
 	},
 	{
-		"id": 5,
+		"id": 3,
 		"name": "Duly Noted",
 		"description": "Heroku hosted web note taking app. Write, save, view, and delete notes. Utilizes Javascript, NodeJS, ExpressJS, JSON, and Heroku",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/dulynoted.png",
@@ -40,7 +48,7 @@
 		"github": "https://github.com/akhalid88/duly-noted"
 	},
 	{
-		"id": 6,
+		"id": 2,
 		"name": "Employee Registry",
 		"description": "An employee directory using React. Filter employess by search and also sort by name or date of birth.",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/empregistry.png",
@@ -48,12 +56,11 @@
 		"github": "https://github.com/akhalid88/employee-registry"
 	},
 	{
-		"id": 7,
+		"id": 1,
 		"name": "React Books",
 		"description": "Full stack React based application that allows users to search for Google Books, add them to their Saved page, and delete them from there page as well",
 		"image": "https://raw.githubusercontent.com/akhalid88/reactfolio/main/src/images/reactbooks.png",
 		"deploy": "https://books-reactor-01.herokuapp.com/",
 		"github": "https://github.com/akhalid88/react-books"
 	}
-
 ]
