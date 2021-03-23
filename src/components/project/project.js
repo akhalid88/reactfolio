@@ -41,7 +41,7 @@ function Project({ name, description, image, deploy, github }) {
 
 	return (
 		<Grid item component={Card} className={classes.grid}>
-			<Card className={classes.root}>
+			<Card className={classes.root} elevation={5}>
 				<CardMedia
 					className={classes.media}
 					image={image}
