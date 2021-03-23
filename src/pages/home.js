@@ -6,14 +6,15 @@ import { Container } from '@material-ui/core';
 const useStyles = makeStyles({
 	main: {
 		marginTop: "10%",
-		maxWidth: "40%",
+		// maxWidth: "50%",
 	},
 	title: {
 		fontSize: 100,
 		color: '#C2C8E7',
+		textAlign: 'center'
 	},
 	text: {
-		fontsize: 20,
+		fontSize: 20,
 		textAlign: 'center'
 	}
 })

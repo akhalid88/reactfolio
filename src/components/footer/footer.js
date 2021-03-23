@@ -6,7 +6,7 @@ const useStyles = makeStyles({
 	foot: {
 		position: 'fixed',
 		width: "100%",
-		backgroundColor: '#3F51B5',
+		backgroundColor: '#282C34',
 		color: '#C2C8E7',
 		bottom: 0
 	}
