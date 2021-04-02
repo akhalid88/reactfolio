@@ -27,6 +27,7 @@ function Home() {
 				<h1 className={classes.title}>MUHAMMAD A KHALID</h1>
 				<h5 className={classes.text}>Full Stack Web Developer</h5>
 				<h5 className={classes.text}>archer | coder | gamer</h5>
+				<h5 className={classes.text}><a href="mailto:akhalid.code@gmail.com">akhalid.code@gmail.com</a></h5>
 			</div>
 		</Container>
 	);

@@ -16,7 +16,7 @@ function Footer() {
 	const classes = useStyles();
 	return (
 		<BottomNavigation className={classes.foot}>
-			<h6>Portfolio designed by Muhammad A Khalid</h6>
+			<h6>Portfolio designed by Muhammad A Khalid | Updated March 2021</h6>
 		</BottomNavigation>
 	);
 };
