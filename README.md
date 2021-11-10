@@ -19,7 +19,7 @@ For this portfolio I really wanted to utilize a new framework and after much del
 
 -----------------------
 ## Deployed link
-https://react-folio-03.herokuapp.com/
+https://www.muhammadakhalid.com/
 
 -----------------------
 ## Code snippets
@@ -56,6 +56,7 @@ useEffect(() => {
 
 - React.JS
 - Material-UI
+- Hosted on Netlify
 
 -----------------------
 ## Questions
