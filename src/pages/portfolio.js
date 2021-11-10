@@ -8,7 +8,7 @@ const useStyles = makeStyles({
 	proj: {
 		marginTop: 100,
 		justifyContent: 'center'
-	}
+	},
 });
 
 function Portfolio() {

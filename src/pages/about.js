@@ -46,6 +46,10 @@ const useStyles = makeStyles({
 		verticalAlign: 'middle',
 		display: 'inline-block',
 		backgroundColor: 'transparent',
+	},
+	resume: {
+		display: 'flex',
+		justifyContent: 'center',
 	}
 });
 
@@ -58,14 +62,16 @@ function About() {
 					<Paper className={classes.paper}>
 						<div className="callout aboutme">
 							<h5 className="textarea">About Me</h5>
-							<p>My name is Muhammad. I am an aspiring web developer residing in California's Bay Area. I build websites and
+							<p>Hello there, I am an aspiring web developer residing in California's Bay Area. I build websites and
 								apps for the modern world.</p>
 							<p>I've been working in tech support most of my life and one day realized it was time for a career change, so I
-							decided it was time to change tracks and now I'm here making amazing sites and apps and having fun all the
+								decided it was time to change tracks and now I'm here making amazing sites and apps and having fun all the
 								while.</p>
-							<p>When I'm not working on code, I can be found at at an archery range or in the kitchen whipping up something
+							<p>When I'm not working on code, I can be found at at an archery range, board gaming with friends, or in the kitchen whipping up something
 								amazing.</p>
-							<Button variant="contained" color="primary" href="/images/MuhammadAKhalid-resume.pdf" download endIcon={<GetAppIcon />}>It's dangerous to go alone, take this resume</Button>
+							<div className={classes.resume}>
+								<Button variant="contained" color="primary" href="/images/MuhammadAKhalid-resume.pdf" centered download endIcon={<GetAppIcon />}>It's dangerous to go alone, take this resume</Button>
+							</div>
 						</div>
 					</Paper>
 				</Grid>
